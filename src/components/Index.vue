@@ -8,7 +8,7 @@
         <Sider class="left-side-bar">
           <left-side-bar />
         </Sider>
-        <Content>
+        <Content class="tx-content">
           <tx-content />
         </Content>
         <Sider class="right-side-bar-1">
@@ -50,27 +50,31 @@ export default {
   min-width: 1350px;
 }
 .bbb-header{
-
+  margin-bottom: 5px;
 }
 .bbb-layout{
   height: 780px;
+  margin-bottom: 5px;
 }
 .left-side-bar{
   width: 300px !important;
   max-width: 300px !important;
   flex:0 0 300px !important;
-  margin: 5px 5px 5px 0;
+  margin-right: 5px;
+  
+}
+.tx-content{
+  margin-right: 5px;
 }
 .right-side-bar-1{
   width: 300px !important;
   max-width: 300px !important;
   flex:0 0 300px !important;
-  margin: 5px 0 5px 5px;
+  margin-right: 5px;
 }
 .right-side-bar-2{
   width: 300px !important;
   max-width: 300px !important;
   flex:0 0 300px !important;
-  margin: 5px 0 5px 5px;
 }
 </style>
