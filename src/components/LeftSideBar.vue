@@ -45,13 +45,13 @@ export default {
           title: "最新价",
           key: "price",
           sortable: true,
-          align: 'center'
+          align: 'right'
         },
         {
           title: "涨幅",
           key: "gain",
           sortable: true,
-          align: 'center'
+          align: 'right'
         }
       ],
       quotesData: [
