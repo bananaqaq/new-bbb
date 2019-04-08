@@ -2,7 +2,7 @@
 
   <div class="real_time_tx_container">
 
-    <Card style="width:100%">
+    <Card style="width:100%" dis-hover>
       <p slot="title">
         实时成交
       </p>

@@ -1,6 +1,6 @@
 <template>
     <div class="tx_container">
-      <Card class="trading_market_card">
+      <Card class="trading_market_card" dis-hover>
         <div slot="title" class="trading_market_card_head">
           <Row type="flex" justify="start" align="middle">
             <div class="symbol_name">
@@ -28,7 +28,7 @@
             </div>
           </Row>
         </div>
-        xxxx
+        <tv-chart-container />
       </Card>
       <Tabs value="name1" class="tx_opt_tab">
           <TabPane label="限价交易" name="name1">
@@ -181,7 +181,11 @@
     </div>
 </template>
 <script>
+import TvChartContainer from './TvChartContainer';
 export default {
+  components: {
+    'tv-chart-container': TvChartContainer,
+  },
   data() {
     return {
       buyaAmtPercent: 0,
@@ -246,6 +250,10 @@ export default {
 }
 .tx_container .trading_market_card_head .amount >span:nth-of-type(1){
   color: rgb(143, 150, 165);
+}
+
+.tx_container .trading_market_card .ivu-card-body{
+  padding: 0px 0 0 0;
 }
 
 

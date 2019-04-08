@@ -1,6 +1,6 @@
 <template>
   <div class="order_container">
-    <Card style="width:100%">
+    <Card style="width:100%" dis-hover>
       <p slot="title">
         <!-- <Icon type="ios-film-outline"></Icon> -->
         盘口
